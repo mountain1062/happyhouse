@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+	height:100%;
+}
+
+ul{
+   list-style:none;
+   padding-left:0px;
+}
+
+footer{
+	position:absolute;
+	text-align:center;
+	padding:20px;
+	width:100%;
+	color:lightgray;
+}
+
+#wrapper{
+	width:80%;
+	margin: 0 auto;
+	text-align: center;
+    min-height: calc(100vh - 90px);
+}
+img{
+	width:400px;
+}
+
+#dealsearch{
+	margin:20px;
+}
+.list-table{
+	max-height:500px;
+	width:fit-content;
+	/* margin:20px auto; */	
+}
+
+table tr:hover{
+	cursor:pointer;
+}
+
+#houseinfo{
+	margin:10px;
+}
+#houseinfo div div{
+	display: inline-grid;
+}
+article{
+	margin:20px;
+}
+section{
+	margin:20px;
+}
+.sitemap a{
+	text-align:left;
+	color:slategray;
+}
+.sitemap a:hover{
+	color:slategray;
+}
+.sitemap a:active{
+	color:lightslategray;
+}
+.login-info{
+	text-align:right;
+}
+.main-logo:hover{
+	cursor:pointer;
+}
+.inline-fit{
+	width:fit-content;
+	display: inline-block;
+}
